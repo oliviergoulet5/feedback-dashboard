@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Todo
+
+When done with updating appearance settings in the dashboard, upload the css file back to the API. The API will send the css back when routed to the dashboard. If no appearance style exists, the dashboard will use the defaults.
