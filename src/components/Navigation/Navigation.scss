@@ -1,0 +1,41 @@
+ul.navigation-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: row wrap;
+    margin: 0;
+    padding: 0.5rem 1rem;
+
+    list-style: none;
+    background-color: #222;
+
+    li {
+        display: inline-flex;
+        margin: 0 .5rem;
+        padding: 0 1rem;
+        width: 4rem;
+        height: 2.5rem;
+        justify-content: center;
+        text-align: center;
+        clear: both;
+    }
+
+    $base-register-color: #1B9CFC;
+
+    li.register-button {
+        background-color: $base-register-color;
+        border-radius: 5px;
+    }
+
+    li.register-button:hover {
+        background-color: darken( $base-register-color, 10% );
+    }
+
+    li a {
+        font-family: Verdana, Geneva, sans-serif; 
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+    }
+}

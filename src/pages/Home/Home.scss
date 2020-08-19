@@ -1,0 +1,50 @@
+.section {
+    height: 100vh;
+    box-shadow: inset 4px 4px 18px #999;
+    overflow: hidden;
+
+    div:nth-child(even) {
+        text-align: right;
+
+        img {
+            text-align: left;
+            display: block;
+        }
+    }
+
+}
+
+.endpoint {
+    box-shadow: inset 4px 4px 18px #999;
+
+    height: 33vh;  
+    margin-top: -18px - 8px;
+    background-color: #26de81; 
+
+    color: #fff;
+    text-align: center;
+
+    h1 {
+        padding-top: 8rem;
+    }
+
+    $base-button-color: #000;
+
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: $base-button-color;
+        color: #fff;
+        border-radius: 5px;
+        width: 8rem;
+        height: 3rem; 
+    }
+
+    .button:hover {
+        background-color: lighten( $base-button-color, 15% );
+        cursor: pointer;
+    }
+
+}

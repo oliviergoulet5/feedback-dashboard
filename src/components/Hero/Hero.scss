@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+#hero {
+    background: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 96vh;
+
+    .hero-text {
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 24px #000;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+
+    }
+
+    h1.hero-text {
+        padding-top: 16rem; // Hardcoded, try to capture 50% of the Hero
+        font-size: 48px;
+    }
+
+    h2.hero-text {
+        font-size: 24px;
+        padding-top: 16px;
+    }
+
+    .learn-button {
+        color: #fff;
+        border: solid;
+        padding: .75em 1em;
+        display: inline-block;
+        margin-top: 3rem;
+        box-shadow: inset 2px 2px 12px #ccc, 2px 2px 8px #ccc;
+        text-shadow: 1px 1px 4px #777;
+    }
+
+}
+
+div.centered-container { // should probably be displaced
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

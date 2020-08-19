@@ -1,0 +1,46 @@
+footer {
+    display: grid;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+
+    background-color: #000;
+    font-family: Verdana, Geneva, sans-serif; 
+
+    div.column {
+        display: inline-block;
+
+        .brand {
+            color: #fff;
+            font-size: 32px;
+            margin-left: 32px;
+        }
+
+        .column-title {
+            color: #fff;
+            font-size: 22px;
+
+        }
+    
+        p {
+            color: #999;
+            font-size: 16px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        hr {
+            width: 50%;
+            margin-left: 0;
+            height: 1px;
+            border: none;
+            background-color: #444;
+        }
+
+
+    }
+}  
